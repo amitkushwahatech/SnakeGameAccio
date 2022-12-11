@@ -25,43 +25,43 @@
 
 // here we add a panel into a frame where all the game play happen
 
-import javax.swing.*;
-public class GameBoard extends JPanel{
-// initialize a height and width  of the panel 
-    int height = 400;
-    int width = 400;    
-// use for defined the snake 
-    int x[] = new int[height*width];
-    int y[] = new int[height*width];
-    // size of the snake 
-    int dots;  
-}
+      import javax.swing.*;
+      public class GameBoard extends JPanel{
+        // initialize a height and width  of the panel 
+            int height = 400;
+            int width = 400;    
+        // use for defined the snake 
+            int x[] = new int[height*width];
+            int y[] = new int[height*width];
+            // size of the snake 
+            int dots;  
+      }
 
 
 ### Step 2 : 
      //     Add the GameBuilder class private into SnakeGame 
-          
-          
-          import javax.swing.*;
-//inherit all the property of JFrame (java swing class to make simple frame)
-public class SnakeGame extends JFrame {
-    private GameBoard board;
-    //constructor of the class
-   public SnakeGame(){
 
-       //initialise
-       board = new GameBoard();
-       //add it
-       add(board);
-//       setBounds(100,100,800,500);
-       setResizable(false);
-       pack();
-       setVisible(true);
-   }
-   public static void main(String[]args){
-       JFrame snakeGame = new SnakeGame();
-   }
-}
+
+                  import javax.swing.*;
+     //inherit all the property of JFrame (java swing class to make simple frame)
+        public class SnakeGame extends JFrame {
+              private GameBoard board;
+              //constructor of the class
+             public SnakeGame(){
+
+                 //initialise
+                 board = new GameBoard();
+                 //add it
+                 add(board);
+          //       setBounds(100,100,800,500);
+                 setResizable(false);
+                 pack();
+                 setVisible(true);
+             }
+             public static void main(String[]args){
+                 JFrame snakeGame = new SnakeGame();
+             }
+        }
 
 
 ### Step 3 :
@@ -152,7 +152,7 @@ public class SnakeGame extends JFrame {
         }
 
 
-###Step 6 : 
+### Step 6 : 
           initalize the game here we place the snake
           
           
@@ -242,7 +242,7 @@ public class SnakeGame extends JFrame {
 
 
 
-###Step 7: 
+### Step 7: 
         Now we need to draw the image into the pannel 
         we overide the paintComponent and draw the image on pannel
  
@@ -286,7 +286,7 @@ public class SnakeGame extends JFrame {
     
     
     
-###Step 9: 
+### Step 9: 
         inherit the ActionListener to perform a task like like move 
         colision tpanel work
         
@@ -299,7 +299,7 @@ public class SnakeGame extends JFrame {
         }
         
         
- ###Step 10 :
+ ### Step 10 :
          Add move function to move a snake up and down , left and right
          
   private void move(){
@@ -323,7 +323,7 @@ public class SnakeGame extends JFrame {
     }
     
     
-###Step 11 :  
+### Step 11 :  
           Add a funtion into GameBuilder  to check a position of apple 
           if condition for if head of snake touch apple then size of
           snake increase 
@@ -336,7 +336,7 @@ public class SnakeGame extends JFrame {
     }
         
         
- ###Step 12 :
+ ### Step 12 :
          Add function for check the collision fo snake 
          // if x[0]<0 or x[0]>=width or y[0] or y[0]>=height
          its mean strike to wall (collision ho gya baba! *)
@@ -364,7 +364,7 @@ public class SnakeGame extends JFrame {
     }
     
     
- ###Step 13 :
+ ### Step 13 :
           Now action performed if collison happend or move the snake 
           or check position of apple  
      
@@ -380,7 +380,7 @@ public class SnakeGame extends JFrame {
     }
     
     
- ###Step 14 :
+ ### Step 14 :
          TAdapter class use for perform a key press task 
          using inherit the property of keyAdapter
          
@@ -420,7 +420,7 @@ public class SnakeGame extends JFrame {
     }
     
     
-  ###Step 14 :
+  ### Step 15 :
             When collision happened then it means game over
             we need to display the " Game Over "
             
@@ -440,7 +440,7 @@ public class SnakeGame extends JFrame {
     
     
     
-###Step 15 : 
+### Step 16 : 
   // Final view of gameBuilder class
     
     
