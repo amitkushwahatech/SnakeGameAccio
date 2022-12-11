@@ -20,7 +20,7 @@
       }
 
 
-####2 :)    Create a one more class GameBuilder
+#### 2 :)    Create a one more class GameBuilder
 
 
 // here we add a panel into a frame where all the game play happen
@@ -622,4 +622,4 @@
 
 
 
-#Congratulation !  ##Snake Game Complete
+# Congratulation !  ## Snake Game Complete
