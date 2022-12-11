@@ -116,39 +116,40 @@ public class SnakeGame extends JFrame {
         // now call the loadImage funtion into GameBuilder
        // Final code after add
          
-  import javax.swing.*;
-  public class GameBoard extends JPanel{
-// initialize a height and width  of the panel 
-    int height = 400;
-    int width = 400;
-    
-    // use for defined the snake 
-    int x[] = new int[height*width];
-    int y[] = new int[height*width];
-    // size of the snake 
-    int dots;
-    
-    public GameBoard(){
-        
-        setFocusable(true);
-        setPreferredSize(new Dimension(width, height));
-        //set panel background color black
-        setBackground(Color.BLACK);
-        
-        loadImages()
-    }
-    
-    private void loadImages(){
-        ImageIcon image_apple = new ImageIcon("src/resources/apple.png");
-        apple = image_apple.getImage();
+       import javax.swing.*;
+       public class GameBoard extends JPanel{
 
-        ImageIcon image_head = new ImageIcon("src/resources/head.png");
-        head = image_head.getImage();
+        // initialize a height and width  of the panel 
+            int height = 400;
+            int width = 400;
 
-        ImageIcon image_body = new ImageIcon("src/resources/dot.png");
-        body = image_body.getImage();
-    }
-}
+            // use for defined the snake 
+            int x[] = new int[height*width];
+            int y[] = new int[height*width];
+            // size of the snake 
+            int dots;
+
+            public GameBoard(){
+
+                setFocusable(true);
+                setPreferredSize(new Dimension(width, height));
+                //set panel background color black
+                setBackground(Color.BLACK);
+
+                loadImages()
+            }
+
+            private void loadImages(){
+                ImageIcon image_apple = new ImageIcon("src/resources/apple.png");
+                apple = image_apple.getImage();
+
+                ImageIcon image_head = new ImageIcon("src/resources/head.png");
+                head = image_head.getImage();
+
+                ImageIcon image_body = new ImageIcon("src/resources/dot.png");
+                body = image_body.getImage();
+            }
+        }
 
 
 ###Step 6 : 
