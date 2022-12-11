@@ -1,23 +1,23 @@
 # SnakeGameAccio
 
 ### Step 1 :  
-              First we create a class SnakeGame 
-              and also add resources ( where image of apple ,snake{body,head} )
+             // First we create a class SnakeGame 
+             // and also add resources ( where image of apple ,snake{body,head} )
               
 //  inherit the property of JFrame for frame
 
- public class SnakeGame extends JFrame {
+      public class SnakeGame extends JFrame {
    
-   public SnakeGame(){       
-//       setBounds(100,100,800,500);
-// false because if we change the size of frame then it also effect the gamplay pannel 
-       setResizable(false);
-       setVisible(true);
-   }
-   public static void main(String[]args){
-       JFrame snakeGame = new SnakeGame();
-   }
-}
+         public SnakeGame(){       
+      //       setBounds(100,100,800,500);
+      // false because if we change the size of frame then it also effect the gamplay pannel 
+             setResizable(false);
+             setVisible(true);
+         }
+         public static void main(String[]args){
+             JFrame snakeGame = new SnakeGame();
+         }
+      }
 
 
 ####2 :)    Create a one more class GameBuilder
@@ -118,7 +118,6 @@ public class SnakeGame extends JFrame {
          
   import javax.swing.*;
   public class GameBoard extends JPanel{
-
 // initialize a height and width  of the panel 
     int height = 400;
     int width = 400;
