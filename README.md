@@ -153,7 +153,7 @@
 
 
 ### Step 6 : 
-          initalize the game here we place the snake
+         // initalize the game here we place the snake
           
           
           
@@ -243,8 +243,8 @@
 
 
 ### Step 7: 
-        Now we need to draw the image into the pannel 
-        we overide the paintComponent and draw the image on pannel
+       // Now we need to draw the image into the pannel 
+       // we overide the paintComponent and draw the image on pannel
  
  
          @Override
@@ -270,7 +270,7 @@
     
     
 ### Step 8: 
-          Locate the apple randomly into a game pannel in GameBuilder
+         // Locate the apple randomly into a game pannel in GameBuilder
           
         
         
@@ -287,8 +287,8 @@
     
     
 ### Step 9: 
-        inherit the ActionListener to perform a task like like move 
-        colision tpanel work
+       // inherit the ActionListener to perform a task like like move 
+       // colision tpanel work
         
         public class GameBoard extends JPanel implements ActionListener {
         
@@ -300,7 +300,7 @@
         
         
  ### Step 10 :
-         Add move function to move a snake up and down , left and right
+        // Add move function to move a snake up and down , left and right
          
            private void move(){
                 for(int i = dots-1;i>0;i--){
@@ -323,9 +323,9 @@
     
     
 ### Step 11 :  
-          Add a funtion into GameBuilder  to check a position of apple 
-          if condition for if head of snake touch apple then size of
-          snake increase 
+        //  Add a funtion into GameBuilder  to check a position of apple 
+        //  if condition for if head of snake touch apple then size of
+        //  snake increase 
 
            private void checkApple(){
                 if(x[0]==apple_x&&y[0]==apple_y){
@@ -336,9 +336,9 @@
 
         
  ### Step 12 :
-         Add function for check the collision fo snake 
+       //  Add function for check the collision fo snake 
          // if x[0]<0 or x[0]>=width or y[0] or y[0]>=height
-         its mean strike to wall (collision ho gya baba! *)
+       //  its mean strike to wall (collision ho gya baba! *)
          
          
            private void checkCollision(){
@@ -364,8 +364,8 @@
     
     
  ### Step 13 :
-          Now action performed if collison happend or move the snake 
-          or check position of apple  
+        //  Now action performed if collison happend or move the snake 
+        //  or check position of apple  
      
      
              @Override
@@ -380,12 +380,12 @@
     
     
  ### Step 14 :
-         TAdapter class use for perform a key press task 
-         using inherit the property of keyAdapter
+      //   TAdapter class use for perform a key press task 
+      //   using inherit the property of keyAdapter
          
-         If we press the key then move the snake
-         up, down, left, right
-         provide the direction to the snake
+      //   If we press the key then move the snake
+      //   up, down, left, right
+      //   provide the direction to the snake
          
            
          
@@ -420,10 +420,10 @@
     
     
   ### Step 15 :
-            When collision happened then it means game over
-            we need to display the " Game Over "
+        //    When collision happened then it means game over
+        //    we need to display the " Game Over "
             
-            Add some font size , color 
+        //    Add some font size , color 
 
 
 
