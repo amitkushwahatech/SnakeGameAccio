@@ -1,1 +1,3 @@
 # SnakeGameAccio
+
+### Step 1 : 
