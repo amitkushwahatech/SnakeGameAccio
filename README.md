@@ -22,20 +22,19 @@
 
 ####2 :)    Create a one more class GameBuilder
 
-import javax.swing.*;
-// here we add a panel into a frame where all the game play happen
-public class GameBoard extends JPanel{
 
+// here we add a panel into a frame where all the game play happen
+
+import javax.swing.*;
+public class GameBoard extends JPanel{
 // initialize a height and width  of the panel 
     int height = 400;
-    int width = 400;
-    
-    // use for defined the snake 
+    int width = 400;    
+// use for defined the snake 
     int x[] = new int[height*width];
     int y[] = new int[height*width];
     // size of the snake 
-    int dots;
-    
+    int dots;  
 }
 
 
