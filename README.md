@@ -4,7 +4,7 @@
               First we create a class SnakeGame 
               and also add resources ( where image of apple ,snake{body,head} )
               
-####1 :)  inherit the property of JFrame for frame
+//  inherit the property of JFrame for frame
 
  public class SnakeGame extends JFrame {
    
@@ -39,9 +39,9 @@ public class GameBoard extends JPanel{
 
 
 ### Step 2 : 
-          Add the GameBuilder class private into SnakeGame 
+     //     Add the GameBuilder class private into SnakeGame 
           
-####           
+          
           import javax.swing.*;
 //inherit all the property of JFrame (java swing class to make simple frame)
 public class SnakeGame extends JFrame {
@@ -65,11 +65,11 @@ public class SnakeGame extends JFrame {
 
 
 ### Step 3 :
-          Now need to contruct the constructer of the  GameBuilder 
-          when we start or call it need to load something intial or
-          start to show the view of game
+       //   Now need to contruct the constructer of the  GameBuilder 
+       //   when we start or call it need to load something intial or
+       //   start to show the view of game
 
-#### add the constructor part
+// add the constructor part
     
     import javax.swing.*;
     public class GameBoard extends JPanel{
@@ -96,7 +96,7 @@ public class SnakeGame extends JFrame {
 
 
 ### Step 4: 
-        #####  Now add a function to load a images of snake and food into GameBuilder
+        //  Now add a function to load a images of snake and food into GameBuilder
           
           
      private void loadImages(){
@@ -113,8 +113,8 @@ public class SnakeGame extends JFrame {
     
 
 ### Step 5 : 
-         now call the loadImage funtion into GameBuilder
-        ###### Final code after add
+        // now call the loadImage funtion into GameBuilder
+       // Final code after add
          
   import javax.swing.*;
   public class GameBoard extends JPanel{
@@ -168,7 +168,7 @@ public class SnakeGame extends JFrame {
     }
 
 
-###### final code after add initGame into GameBuilder
+// final code after add initGame into GameBuilder
 
 
   import javax.swing.*;
@@ -441,7 +441,7 @@ public class SnakeGame extends JFrame {
     
     
 ###Step 15 : 
-    #### Final view of gameBuilder class
+  // Final view of gameBuilder class
     
     
     import javax.swing.*;
