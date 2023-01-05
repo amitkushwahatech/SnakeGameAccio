@@ -1,5 +1,12 @@
 # SnakeGameAccio
 
+In which 2 snake game one is simple other one 
+have a feature 
+score and length of snake
+
+![image](https://user-images.githubusercontent.com/120050605/210809773-825383c3-b16d-4cb6-943e-204be09fcd56.png)
+![image](https://user-images.githubusercontent.com/120050605/210810040-76f4ca34-6302-4e0c-8f13-34e724034625.png)
+
 ### Step 1 :  
              // First we create a class SnakeGame 
              // and also add resources ( where image of apple ,snake{body,head} )
